@@ -1,6 +1,6 @@
 import '@testing-library/jest-dom';
 import { tests } from '../U2/U2EJ1.js';
-describe("tests", () => {
+describe('tests', () => {
   const fibonacci = tests();
   test('checks the results of the first 10 calls to the fibonacci function', () => {
     expect(fibonacci(0)).toBe(0);

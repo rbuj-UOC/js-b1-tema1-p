@@ -1,9 +1,9 @@
 import '@testing-library/jest-dom';
 import { tests } from '../U4/U4EJ2.js';
-describe("tests", () => {
+describe('tests', () => {
   const evenNumbers = tests();
   test('checks the result of call to the evenNumbers function receiving (4,7,21,3) by parameters', () => {
-    let testArr = evenNumbers(4,7,21,3);
+    let testArr = evenNumbers(4, 7, 21, 3);
     expect(testArr.length).toBe(4);
     expect(testArr[0]).toBe(4);
     expect(testArr[1]).toBe(6);

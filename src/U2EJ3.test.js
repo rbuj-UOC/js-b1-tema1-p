@@ -1,9 +1,9 @@
 import '@testing-library/jest-dom';
 import { tests } from '../U2/U2EJ3.js';
-describe("tests", () => {
+describe('tests', () => {
   const oddNumbers = tests();
   test('checks the result of call to the oddNumbers function with the values 7 and an new Array', () => {
-    let testArr = new Array();
+    let testArr = [];
     oddNumbers(7, testArr);
     expect(testArr.length).toBe(4);
     expect(testArr[0]).toBe(7);
